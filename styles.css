@@ -23,11 +23,13 @@ body {
 #character {
     width: 50px;
     height: 50px;
-    background-color: #ff3333;
     position: absolute;
     top: 275px; /* Center vertically */
     left: 375px; /* Center horizontally */
     border-radius: 50%;
+    background-image: url('character.png');
+    background-size: cover;
+    background-position: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,14 +42,17 @@ body {
 }
 
 .heart {
-    background-color: #ff6699;
-    clip-path: polygon(50% 0%, 61% 19%, 85% 19%, 95% 37%, 75% 60%, 50% 100%, 25% 60%, 5% 37%, 15% 19%, 39% 19%);
+    background-image: url('heart.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .obstacle {
     width: 50px;
     height: 50px;
-    background-color: #6699ff;
+    background-image: url('obstacle.png');
+    background-size: cover;
+    background-position: center;
     position: absolute;
     border-radius: 10%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
